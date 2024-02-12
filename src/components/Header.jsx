@@ -13,19 +13,19 @@ const Header = () => {
 
       <ul class="hidden lg:block lg:flex flex-col lg:flex-row lg:items-center lg:space-x-20">
         <li class="font-medium text-green-500 text-lg hover:text-green-300 transition ease-in-out duration-300 mb-5 lg:mb-0">
-          <a href="/">Services</a>
+          <a href="/classes">Classes</a>
         </li>
 
         <li class="font-medium text-green-500 text-lg hover:text-green-300 transition ease-in-out duration-300 mb-5 lg:mb-0">
-          <a href="/">Works</a>
+          <a href="/dashboard">Dashboard</a>
         </li>
 
         <li class="font-medium text-green-500 text-lg hover:text-green-300 transition ease-in-out duration-300 mb-5 lg:mb-0">
-          <a href="/">Blog</a>
+          <a href="/profile">Profile</a>
         </li>
 
         <li class="px-8 py-3 font-medium text-green-500 text-lg text-center border-2 border-green-500 rounded-md hover:bg-green-500 hover:text-white transition ease-linear duration-300">
-          <a href="/Account">Connect</a>
+          <a href="/login">Login</a>
         </li>
       </ul>
     </nav>
