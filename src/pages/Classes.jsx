@@ -1,4 +1,5 @@
 import { Button } from "components/ui/Button";
+import { Separator } from "components/ui/Separator";
 import React from "react";
 
 const classes = [
@@ -22,6 +23,7 @@ const Classes = () => {
       <div className="flex flex-col gap-y-16  w-full items-center">
         <div className="w-[70%] rounded-xl p-6 shadow-xl shadow-black/40">
           <h3 className="font-bold mb-4">Current Classes</h3>
+          <Separator className="my-4 bg-green-200" />
           <div className="bg-green-200 py-3 rounded-md px-6 flex-wrap flex items-center justify-between">
             <p className="">Software Engineering</p>
             <Button className="w-fit px-4">Attend Class</Button>
@@ -30,6 +32,7 @@ const Classes = () => {
 
         <div className="shadow-xl shadow-black/40 w-[70%] rounded-xl p-6 mb-12">
           <h3 className="font-bold mb-8">Upcoming Classes</h3>
+          <Separator className="my-4 bg-green-200" />
 
           {classes.map((classItem, index) => {
             return (
@@ -38,7 +41,7 @@ const Classes = () => {
                 className="bg-green-200 py-3 rounded-md px-6 flex-wrap flex items-center justify-between mt-4"
               >
                 <p className="">{classItem.title}</p>
-                <Button disabled={true} className="px-4">
+                <Button disabled={true} className="w-20">
                   {classItem.time}
                 </Button>
               </div>

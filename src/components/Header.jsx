@@ -4,7 +4,9 @@ const Header = () => {
   return (
     <nav class="flex-wrap lg:flex items-center justify-between mb-20 lg:mb-40">
       <div class="flex items-center justify-between mb-10 lg:mb-0">
-        <img src="assets/image/navbar-logo.svg" alt="Logo" />
+        <a href="/">
+          <img src="assets/image/navbar-logo.svg" alt="Logo" />
+        </a>
 
         <button class="flex items-center justify-center border border-green-500 w-10 h-10 text-green-500 rounded-md outline-none lg:hidden ml-auto">
           <i data-feather="menu"></i>
